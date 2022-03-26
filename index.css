@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('pexels-bill-emrich-230794.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  color: cadetblue;
+  position: absolute;
+  width: 300px;
+  top: 35%;
+  left: 40%;
+}
+.container h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 12px;
+}
+.box {
+  width: 100%;
+  padding: 10px;
+}
+.box input{
+    color: cornsilk;
+    width: 75%;
+    background: none;
+    border: none;
+    font-size: 17px;
+    outline: none;
+}
+.box i{
+    text-align: center;
+    width:35px;
+    padding: 2px;
+}
+.btn{
+    margin: 5% 35%;
+    color: darkgoldenrod;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: none;
+    width: 25%;
+}
